@@ -9,7 +9,11 @@
     "url": "git@github.com:mpobrien/node_mongo_hadoop.git"
   },
   "main": "./node_mongo_hadoop",
-  "dependencies": {},
+  "dependencies": {
+    "mongodb":"*",
+    "buffers":"*",
+    "underscore":"*"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
